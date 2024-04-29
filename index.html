@@ -55,12 +55,62 @@
         <hr class="hero-centered-line"></hr>
     </section>
     <section class="logo-section">
+        <section class="slideshow-container">
+            <h1>USER REVIEWS</h1>
+            <div class="slideContainer">
+                <div class="Slide">
+                    <img class="logo-1" src="Vector Smart Object.png" alt="">
+                </div>
+                <div class="Slide">
+                    <img class="logo-2" src="Vector Smart Object (1).png" alt="">
+                </div>
+                <div class="Slide">
+                    <img class="logo-3" src="download.svg" alt="">
+                </div>
+                <div class="Slide">
+                    <img class="logo-4" src="Vector Smart Object (3).png" alt="">
+                </div>
+                <div class="Slide">
+                    <img class="logo-5" src="Vector Smart Object (4).png" alt="">
+                </div>
+                <a class="prevBtn">❮</a>
+                <a class="nextBtn">❯</a>
+            </div>
+        </section>
+        <script>
+            document.querySelector(".prevBtn").addEventListener("click", () => {
+                changeSlides(-1);
+            });
+            document.querySelector(".nextBtn").addEventListener("click", () => {
+                changeSlides(1);
+            });
+            var slideIndex = 1;
+            showSlides(slideIndex);
+            function changeSlides(n) {
+                showSlides((slideIndex += n));
+            }
+            function currentSlide(n) {
+                showSlides((slideIndex = n));
+            }
+            function showSlides(n) {
+                var i;
+                var slides = document.getElementsByClassName("Slide");
+                if (n > slides.length) {
+                    slideIndex = 1;
+                } if (n < 1) {
+                    slideIndex = slides.length;
+                }
+                Array.from(slides).forEach(item => (item.style.display = "none"));
+                slides[slideIndex - 1].style.display = "block";
+            }
+        </script>
+        <div class="logo-div">
         <img class="logo-1" src="Vector Smart Object.png" alt="">
         <img class="logo-2" src="Vector Smart Object (1).png" alt="">
         <img class="logo-3" src="download.svg" alt="">
         <img class="logo-4" src="Vector Smart Object (3).png" alt="">
         <img class="logo-5" src="Vector Smart Object (4).png" alt="">
-    </section>
+        </div>
     </section>
     <section class="Mid-Explorer-section">
         <section class="hero-centered-div">
