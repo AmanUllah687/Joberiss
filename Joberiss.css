@@ -184,7 +184,7 @@
     z-index: 1;
 }
 /*Hero centered div Styling*/
-.hero-centered-div {
+.hero-centered-div,.hero-centered-div-2 {
     text-align: center;
     margin-top: 50px;
 }
@@ -736,7 +736,7 @@ footer {
   font-size: 10px;
 }
 .keyboard-top-rec {
-  margin-top: 10px;
+  margin-top: 15px;
   margin-left: -250px;
   border: 2px dashed #318ce7;
   border-radius: 5px;
@@ -776,7 +776,7 @@ footer {
   margin-left: 178px;
 }
 .logo-section {
-  height: 800px;
+  height: 100px;
   margin-top: 20px;
   flex-direction: column;
   justify-content: flex-start;
@@ -792,6 +792,7 @@ footer {
 }
 .logo-div {
   display: none;
+  z-index: 0;
 }
 .slideshow-container {
   display: block;
@@ -837,5 +838,9 @@ footer {
 .prevBtn {
   left: -90px;
   top: 0px;
+}
+.Mid-Explorer-section {
+  margin-top: -300px;
+  z-index: 1;
 }
 }
