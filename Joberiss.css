@@ -670,12 +670,15 @@ footer {
 
   @media only screen and (max-width: 480px) {
     .small-Rectangle-1 {
-      margin-top: -350px;
+      z-index: 0;
+      border: 2px solid transparent;
+      
 
   }
   .small-Rectangle-2 {
-      margin-top: -370px;
-  }
+      z-index: 0;
+      border: 2px solid transparent;
+  } 
     .header {
       display: none;
     }
@@ -763,7 +766,7 @@ footer {
   z-index: 1;
 }
 .hero-centered-div {
-  margin-top: -280px;
+  margin-top: -450px;
   margin-left: -75px;
 }
 .hero-centered-heading {
@@ -840,7 +843,27 @@ footer {
   top: 0px;
 }
 .Mid-Explorer-section {
-  margin-top: -300px;
-  z-index: 1;
+  margin-top: -20px;
+  width: 300px;
+  margin-left: -10px;
+}
+.hero-centered-div-2 .hero-centered-heading {
+  font-size: 30px;
+  margin-top: -70px;
+}
+.hero-centered-div-2 .hero-centered-text {
+  font-size: 10px;
+  text-align: center;
+  
+}
+.hero-centered-div-2 .hero-centered-line {
+  margin-left: 108px;
+}
+.card-1 {
+  background-color: RGBA(255, 255, 255, 1);
+  width: 151px;
+  height: 117px;
+  border-radius: 25px;
+  padding: 50px 10px 50px 50px;
 }
 }
