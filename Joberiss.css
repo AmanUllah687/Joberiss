@@ -864,6 +864,15 @@ footer {
   width: 151px;
   height: 117px;
   border-radius: 25px;
-  padding: 50px 10px 50px 50px;
+  text-align: center;
+}
+.icon-container {
+ margin-top: -40px;
+}
+.card-heading {
+  color: #14212B;
+  font-size: 18px;
+  width: 193px;
+  height: 21px;
 }
 }
