@@ -861,18 +861,40 @@ footer {
 }
 .card-1 {
   background-color: RGBA(255, 255, 255, 1);
-  width: 151px;
+  width: 171px;
   height: 117px;
   border-radius: 25px;
-  text-align: center;
+  padding: 50px 10px 50px 20px;
+  align-items: center;
 }
 .icon-container {
  margin-top: -40px;
 }
 .card-heading {
-  color: #14212B;
   font-size: 18px;
-  width: 193px;
-  height: 21px;
+}
+.card-text {
+  font-size: 12px;
+}
+.card-heading-2 {
+
+  font-size: 15px;
+  height: 15px;
+}
+.home-offic-pic {
+  width: 20px;
+  height: 140px;
+}
+.floating-pic {
+  width: 100px;
+  height: 100px;
+}
+.about-us-pic {
+  margin-top: -210px;
+  margin-left: 400px;
+}
+.about-us-pic-float{
+  margin-top: -500px;
+  margin-left: -100px;
 }
 }
