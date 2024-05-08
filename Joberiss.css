@@ -649,7 +649,7 @@ footer {
     flex-wrap: wrap;
     margin-top: -30px;
   }
-  .link-column{
+  .link-column, .link-column-1 {
     width: 50%;
 
   }
@@ -964,11 +964,12 @@ footer {
   margin-top: 700px;
 }
 .testimonial {
-  row-gap: 50px;
+  row-gap: 30px;
   flex-direction: column;
 }
 .testimonial-left {
   width: 272px;
+  height: 330px;
 }
 .testimonial-pic {
   width: 270px;
@@ -982,5 +983,33 @@ footer {
 .price-tage, .price-tage-center, .price-tage-right {
   width: 100px;
   margin-left: 125px;
+}
+.pricing-text, .pricing-text-center, .pricing-text-right {
+  width: 230px;
+  height: 60px;
+}
+footer {
+  flex-direction: column;
+  margin-left: -10px;
+}
+.link-row {
+  flex-direction: column;
+}
+.column p {
+width: 250px;
+}
+.column h1 {
+  width: 250px;
+}
+.column ul {
+  padding-left: 25px;
+}
+.copywrite-footer div span {
+  font-size: 13px;
+  margin-left: -18px;
+  
+}
+.link-column-1 {
+  margin-top: -30px;
 }
 }
