@@ -208,7 +208,7 @@
 /*logo section Styling*/
 .logo-section {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 956px;
     height: 79px;
     margin-left: 140px;
@@ -672,8 +672,6 @@ footer {
     .small-Rectangle-1 {
       z-index: 0;
       border: 2px solid transparent;
-      
-
   }
   .small-Rectangle-2 {
       z-index: 0;
@@ -688,8 +686,9 @@ footer {
   }
   .hero-text {
       color: #318ce7;
-      font-size: 28px;
+      font-size: 35px;
       margin-left: -100px;
+      margin-top: 20px;
   }
   .hero-section-fade-rectangle {
    display: none;
@@ -698,7 +697,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 180px;
+  width: 310px;
   height: 50px;
   border-radius: 25px;
   background-color: #FFFFFF;
@@ -714,14 +713,13 @@ footer {
   background-repeat: no-repeat;
   background-position: 10px;
   padding: 10px 10px 10px 30px;
-  border-radius: 4px;
   margin-right: 8px;
   color: #000000;
   font-size: 16px;
   margin-left: -50px;
   padding-right: 30px;
   border:  1px solid #318ce7;
-  width: 270px;
+  width: 300px;
   height: 40px;
   border-radius: 25px;
 }
@@ -734,13 +732,13 @@ footer {
   border-radius: 4px;
   cursor: pointer;
   width: 300px;
-  height: 30px;
+  height: 50px;
   margin-right: 10px;
   font-size: 10px;
 }
 .keyboard-top-rec {
   margin-top: 15px;
-  margin-left: -250px;
+  margin-left: -190px;
   border: 2px dashed #318ce7;
   border-radius: 5px;
   height: 50px;
@@ -748,13 +746,13 @@ footer {
 } 
 .keyboard-pic {
   margin-top: -60px;
-  margin-left: -240px;
+  margin-left: -180px;
   z-index: 3;
 
 }
 .keyboard-pic1 {
-  height: 140px;
-  width: 120px;
+  height: 160px;
+  width: 150px;
 }
 .keyboard-bottom-rec {
   margin-left: -190px;
@@ -767,22 +765,23 @@ footer {
 }
 .hero-centered-div {
   margin-top: -450px;
-  margin-left: -75px;
+  margin-left: -10px;
 }
 .hero-centered-heading {
   font-size: 30px;
 }
 .hero-centered-text {
-  font-size: 10px;
+  font-size: 12px;
 }
 .hero-centered-line {
-  margin-left: 178px;
+  margin-left: 140px;
 }
 .logo-section {
   height: 100px;
-  margin-top: 20px;
+  margin-top: -20px;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
+  margin-left: 180px;
 }
 .logo-1,.logo-2{
   margin-left: -50px;
@@ -844,7 +843,7 @@ footer {
 }
 .Mid-Explorer-section {
   margin-top: -20px;
-  width: 300px;
+  width: 400px;
   margin-left: -10px;
 }
 .hero-centered-div-2 .hero-centered-heading {
