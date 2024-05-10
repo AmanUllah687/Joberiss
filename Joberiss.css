@@ -768,12 +768,12 @@ footer {
   margin-left: 50px;
 }
 .hero-centered-heading {
-  font-size: 35px;
+  font-size: 30px;
 }
 .hero-centered-div .hero-centered-text {
   font-size: 12px;
   width: 250px;
-  margin-left: 20px;
+  margin-left: 10px;
 }
 .hero-centered-line {
   margin-left: 140px;
@@ -864,7 +864,7 @@ footer {
   width: 171px;
   height: 130px;
   border-radius: 25px;
-  padding: 50px 30px 50px 30px;
+  padding: 50px 50px 50px 30px;
   align-items: center;
   margin-left: -20px;
 }
@@ -1000,6 +1000,7 @@ margin-left: 60px;
 .pricing-text, .pricing-text-center, .pricing-text-right {
   width: 230px;
   height: 60px;
+  margin-bottom: 20px;
 }
 footer {
   flex-direction: column;
