@@ -198,7 +198,7 @@
     color: #6B6B6B;
     font-size: 16px;
 }
-.hero-centered-line {
+.hero-centered-line,.hero-centered-line-ts {
     width: 71px;
     height: 7px;
     background-color: #318ce7;
@@ -738,7 +738,7 @@ footer {
 }
 .keyboard-top-rec {
   margin-top: 15px;
-  margin-left: -170px;
+  margin-left: -180px;
   border: 2px dashed #318ce7;
   border-radius: 5px;
   height: 50px;
@@ -746,7 +746,7 @@ footer {
 } 
 .keyboard-pic {
   margin-top: -60px;
-  margin-left: -160px;
+  margin-left: -170px;
   z-index: 3;
 
 }
@@ -755,7 +755,7 @@ footer {
   width: 150px;
 }
 .keyboard-bottom-rec {
-  margin-left: -170px;
+  margin-left: -180px;
   margin-top: -60px;
   border: 2px dashed #318ce7;
   border-radius: 5px;
@@ -844,7 +844,7 @@ footer {
 .Mid-Explorer-section {
   margin-top: -20px;
   width: 400px;
-  margin-left: -10px;
+  margin-left: 0px
 }
 .hero-centered-div-2 .hero-centered-heading {
   font-size: 30px;
@@ -853,10 +853,9 @@ footer {
 .hero-centered-div-2 .hero-centered-text {
   font-size: 10px;
   text-align: center;
-  
 }
 .hero-centered-div-2 .hero-centered-line {
-  margin-left: 108px;
+  margin-left: 150px;
 }
 .card-1 {
   background-color: RGBA(255, 255, 255, 1);
@@ -883,6 +882,7 @@ footer {
 .about-us-section {
   height: 700px;
   padding-top: 70px;
+  margin-left: 100px;
 }
 .home-offic-pic {
   width: 120px;
@@ -933,6 +933,7 @@ footer {
   padding-top: 50px;
   margin-top: -250px;
   margin-left: -10px;
+  width: 480px;
   }
 .our-process-diagram {
   display: flex;
@@ -944,6 +945,9 @@ footer {
 .hero-centered-div-3  {
   padding-bottom: 50px;
   margin-left: -70px;
+}
+.hero-centered-div-3 .hero-centered-line {
+  margin-left: 240px;
 }
 .left-diagram {
   margin-left: -70px;
@@ -961,6 +965,7 @@ footer {
 }
 .testimonial-section {
   margin-top: 700px;
+margin-left: 60px;
 }
 .testimonial {
   row-gap: 30px;
@@ -990,6 +995,8 @@ footer {
 footer {
   flex-direction: column;
   margin-left: -10px;
+  width: 480px;
+  height: 900px;
 }
 .link-row {
   flex-direction: column;
@@ -1010,5 +1017,10 @@ width: 250px;
 }
 .link-column-1 {
   margin-top: -30px;
+}
+.copywrite-footer {
+  padding-left: 85px;
+  height: 50px;
+  width: 480px;
 }
 }
