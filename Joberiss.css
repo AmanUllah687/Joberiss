@@ -687,7 +687,7 @@ footer {
   .hero-text {
       color: #318ce7;
       font-size: 36px;
-      margin-left: -90px;
+      margin-left: -100px;
       margin-top: 15px;
   }
   .hero-section-fade-rectangle {
@@ -712,7 +712,7 @@ footer {
   background-image: url('search-interface-symbol.png');
   background-repeat: no-repeat;
   background-position: 10px;
-  padding: 10px 10px 10px 30px;
+  padding: 10px 0px 10px 30px;
   margin-right: 8px;
   color: #000000;
   font-size: 16px;
