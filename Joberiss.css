@@ -686,9 +686,9 @@ footer {
   }
   .hero-text {
       color: #318ce7;
-      font-size: 35px;
-      margin-left: -100px;
-      margin-top: 20px;
+      font-size: 36px;
+      margin-left: -90px;
+      margin-top: 15px;
   }
   .hero-section-fade-rectangle {
    display: none;
@@ -738,7 +738,7 @@ footer {
 }
 .keyboard-top-rec {
   margin-top: 15px;
-  margin-left: -190px;
+  margin-left: -150px;
   border: 2px dashed #318ce7;
   border-radius: 5px;
   height: 50px;
@@ -746,7 +746,7 @@ footer {
 } 
 .keyboard-pic {
   margin-top: -60px;
-  margin-left: -180px;
+  margin-left: -140px;
   z-index: 3;
 
 }
@@ -755,7 +755,7 @@ footer {
   width: 150px;
 }
 .keyboard-bottom-rec {
-  margin-left: -190px;
+  margin-left: -150px;
   margin-top: -60px;
   border: 2px dashed #318ce7;
   border-radius: 5px;
