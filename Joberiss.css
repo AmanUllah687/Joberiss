@@ -716,10 +716,10 @@ footer {
   margin-right: 8px;
   color: #000000;
   font-size: 16px;
-  margin-left: -50px;
+  margin-left: -45px;
   padding-right: 30px;
   border:  1px solid #318ce7;
-  width: 310px;
+  width: 300px;
   height: 50px;
   border-radius: 25px;
 }
@@ -769,11 +769,12 @@ footer {
 }
 .hero-centered-heading {
   font-size: 30px;
+  margin-left: 5px;
 }
 .hero-centered-div .hero-centered-text {
   font-size: 12px;
   width: 250px;
-  margin-left: 85px;
+  margin-left: 88px;
   
 }
 .hero-centered-line {
@@ -999,6 +1000,7 @@ margin-left: -35px;
 }
 .hero-centered-div-4 .hero-centered-text {
   font-size: 12px;
+  margin-left: 10px;
 }
 .hero-centered-div-4 .hero-centered-line {
   margin-left: 170px;
