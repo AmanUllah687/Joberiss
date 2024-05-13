@@ -765,7 +765,7 @@ footer {
 }
 .hero-centered-div {
   margin-top: -450px;
-  margin-left: 50px;
+  margin-left: -30px;
 }
 .hero-centered-heading {
   font-size: 30px;
@@ -773,7 +773,8 @@ footer {
 .hero-centered-div .hero-centered-text {
   font-size: 12px;
   width: 250px;
-  margin-left: 10px;
+  margin-left: 85px;
+  
 }
 .hero-centered-line {
   margin-left: 140px;
@@ -783,7 +784,7 @@ footer {
   margin-top: -20px;
   flex-direction: column;
   justify-content: center;
-  margin-left: 180px;
+  margin-left: 170px;
 }
 .logo-1,.logo-2{
   margin-left: -50px;
@@ -856,8 +857,11 @@ footer {
   font-size: 10px;
   text-align: center;
 }
+.hero-centered-div-2{
+margin-left: -35px;
+}
 .hero-centered-div-2 .hero-centered-line {
-  margin-left: 150px;
+  margin-left: 190px;
 }
 .card-1 {
   background-color: RGBA(255, 255, 255, 1);
@@ -947,19 +951,24 @@ footer {
 }
 .hero-centered-div-3  {
   padding-bottom: 50px;
-  margin-left: -70px;
+  margin-left: -90px;
+}
+.hero-centered-div-3 .hero-centered-text {
+  font-size: 12px;
 }
 .hero-centered-div-3 .hero-centered-line {
-  margin-left: 240px;
+  margin-left: 250px;
 }
 .left-diagram {
-  margin-left: -70px;
+  margin-left: -100px;
   margin-bottom: 50px;
 }
 .middle-diagram {
+  margin-left: -100px;
   margin-bottom: 50px;
 }
 .right-diagram {
+  margin-left: -100px;
   margin-bottom: 50px;
 }
 .Arrow-line-top,
@@ -968,7 +977,7 @@ footer {
 }
 .testimonial-section {
   margin-top: 700px;
-margin-left: 60px;
+  margin-left: 50px;
 }
 .testimonial {
   row-gap: 30px;
@@ -986,9 +995,13 @@ margin-left: 60px;
 }
 .hero-centered-div-4 {
   margin-top: -600px;
+  margin-left: -70px;
+}
+.hero-centered-div-4 .hero-centered-text {
+  font-size: 12px;
 }
 .hero-centered-div-4 .hero-centered-line {
-  margin-left: 100px;
+  margin-left: 170px;
 }
 .testimonial-pic-right {
   width: 225px;
