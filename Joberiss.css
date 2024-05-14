@@ -667,7 +667,6 @@ footer {
   .slideshow-container  {
     display: none;
   }
-
   @media only screen and (max-width: 480px) {
     .small-Rectangle-1 {
       z-index: 0;
@@ -1048,4 +1047,80 @@ width: 250px;
   height: 50px;
   width: 480px;
 }
+}
+header {
+  display: none;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #333;
+  padding: 10px 20px;
+  color: white;
+}
+
+.logo img {
+  height: 40px;
+}
+
+nav {
+  position: relative;
+}
+
+.menu-icon {
+  display: none;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+nav input[type="checkbox"] {
+  display: none;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  margin-left: 20px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  header {
+    display: flex;
+    background-color: RGBA(238, 243, 247, 1);
+  }
+  .menu {
+      display: none;
+      position: absolute;
+      top: 60px;
+      right: 0;
+  background-color: #318ce7;
+      flex-direction: column;
+      width: 200px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+  }
+
+  nav input[type="checkbox"]:checked ~ .menu {
+      display: flex;
+  }
+
+  .menu li {
+      margin: 0;
+      border-top: 1px solid #444;
+  }
+
+  .menu li:first-child {
+      border-top: none;
+  }
+
+  .menu-icon {
+      display: block;
+  }
 }
