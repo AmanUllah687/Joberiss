@@ -737,7 +737,7 @@ footer {
 }
 .keyboard-top-rec {
   margin-top: 15px;
-  margin-left: -190px;
+  margin-left: -180px;
   border: 2px dashed #318ce7;
   border-radius: 5px;
   height: 50px;
@@ -745,7 +745,7 @@ footer {
 } 
 .keyboard-pic {
   margin-top: -60px;
-  margin-left: -180px;
+  margin-left: -170px;
   z-index: 3;
 
 }
@@ -754,7 +754,7 @@ footer {
   width: 150px;
 }
 .keyboard-bottom-rec {
-  margin-left: -190px;
+  margin-left: -180px;
   margin-top: -60px;
   border: 2px dashed #318ce7;
   border-radius: 5px;
@@ -853,6 +853,7 @@ footer {
 .hero-centered-div-2 .hero-centered-heading {
   font-size: 30px;
   margin-top: -70px;
+  margin-left: 10px;
 }
 .hero-centered-div-2 .hero-centered-text {
   font-size: 10px;
@@ -891,6 +892,7 @@ margin-left: -35px;
   height: 700px;
   padding-top: 70px;
   margin-left: 100px;
+  width: 480px;
 }
 .home-offic-pic {
   width: 120px;
@@ -998,12 +1000,15 @@ margin-left: -35px;
   margin-top: -600px;
   margin-left: -70px;
 }
+.hero-centered-div-4 .hero-centered-heading {
+  margin-left: 20px;
+}
 .hero-centered-div-4 .hero-centered-text {
   font-size: 12px;
   margin-left: 10px;
 }
 .hero-centered-div-4 .hero-centered-line {
-  margin-left: 170px;
+  margin-left: 160px;
 }
 .testimonial-pic-right {
   width: 225px;
