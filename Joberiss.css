@@ -668,6 +668,9 @@ footer {
     display: none;
   }
   @media only screen and (max-width: 480px) {
+    .Top-section {
+      width: auto;
+    }
     .small-Rectangle-1 {
       z-index: 0;
       border: 2px solid transparent;
@@ -786,6 +789,7 @@ footer {
   flex-direction: column;
   justify-content: center;
   margin-left: 170px;
+  width: auto;
 }
 .logo-1,.logo-2{
   margin-left: -50px;
@@ -847,7 +851,7 @@ footer {
 }
 .Mid-Explorer-section {
   margin-top: -20px;
-  width: 420px;
+  width: auto;
   margin-left: -10px
 }
 .hero-centered-div-2 .hero-centered-heading {
@@ -890,6 +894,7 @@ margin-left: -35px;
 }
 .about-us-section {
   height: 700px;
+  width: auto;
   padding-top: 70px;
   margin-left: 100px;
 }
@@ -942,7 +947,7 @@ margin-left: -35px;
   padding-top: 50px;
   margin-top: -250px;
   margin-left: -10px;
-  width: 480px;
+  width: auto;
   }
 .our-process-diagram {
   display: flex;
@@ -983,6 +988,7 @@ margin-left: -35px;
 .testimonial-section {
   margin-top: 700px;
   margin-left: 50px;
+  width: auto;
 }
 .testimonial {
   row-gap: 30px;
@@ -1027,7 +1033,7 @@ margin-left: -35px;
 footer {
   flex-direction: column;
   margin-left: -10px;
-  width: 480px;
+  width: auto;
   height: 900px;
 }
 .link-row {
@@ -1053,7 +1059,7 @@ width: 250px;
 .copywrite-footer {
   padding-left: 50px;
   height: 50px;
-  width: 480px;
+  width: auto;
 }
 }
 header {
@@ -1114,6 +1120,7 @@ nav input[type="checkbox"] {
       flex-direction: column;
       width: 200px;
       box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+      z-index: 5;
   }
 
   nav input[type="checkbox"]:checked ~ .menu {
