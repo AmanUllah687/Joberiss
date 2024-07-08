@@ -791,6 +791,7 @@ footer {
   flex-direction: column;
   justify-content: center;
   margin-left: 170px;
+  width: 480px;
 }
 .logo-1,.logo-2{
   margin-left: -50px;
@@ -824,7 +825,7 @@ footer {
 }
 .slideContainer {
   color: white;
-  max-width: 710px;
+  max-width: 480px;
   margin: 10px;
   position: relative;
   margin: auto;
@@ -898,6 +899,12 @@ margin-left: -35px;
   padding-top: 70px;
   width: 480px;
 }
+.pic-conatiner-dashed-rec {
+  display: none;
+}
+.about-section-fade-rectangle {
+  display: none;
+}
 .home-offic-pic {
   width: 120px;
   height: 140px;
@@ -908,7 +915,7 @@ margin-left: -35px;
   height: 140px;
 }
 .about-us-pic {
-  margin-top: -230px;
+  margin-top: 50px;
   margin-left: 400px;
 }
 .about-us-pic-float{
