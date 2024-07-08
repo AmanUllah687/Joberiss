@@ -668,9 +668,6 @@ footer {
     display: none;
   }
   @media only screen and (max-width: 480px) {
-    .Top-section {
-      width: auto;
-    }
     .small-Rectangle-1 {
       z-index: 0;
       border: 2px solid transparent;
@@ -778,7 +775,6 @@ footer {
   font-size: 12px;
   width: 250px;
   margin-left: 88px;
-  
 }
 .hero-centered-line {
   margin-left: 140px;
@@ -789,7 +785,6 @@ footer {
   flex-direction: column;
   justify-content: center;
   margin-left: 170px;
-  width: auto;
 }
 .logo-1,.logo-2{
   margin-left: -50px;
@@ -851,7 +846,7 @@ footer {
 }
 .Mid-Explorer-section {
   margin-top: -20px;
-  width: auto;
+  width: 420px;
   margin-left: -10px
 }
 .hero-centered-div-2 .hero-centered-heading {
@@ -894,7 +889,6 @@ margin-left: -35px;
 }
 .about-us-section {
   height: 700px;
-  width: auto;
   padding-top: 70px;
   margin-left: 100px;
 }
@@ -947,7 +941,7 @@ margin-left: -35px;
   padding-top: 50px;
   margin-top: -250px;
   margin-left: -10px;
-  width: auto;
+  width: 480px;
   }
 .our-process-diagram {
   display: flex;
@@ -970,15 +964,15 @@ margin-left: -35px;
   margin-left: 250px;
 }
 .left-diagram {
-  margin-left: -100px;
+  margin-left: -90px;
   margin-bottom: 50px;
 }
 .middle-diagram {
-  margin-left: -100px;
+  margin-left: -90px;
   margin-bottom: 50px;
 }
 .right-diagram {
-  margin-left: -100px;
+  margin-left: -90px;
   margin-bottom: 50px;
 }
 .Arrow-line-top,
@@ -988,7 +982,6 @@ margin-left: -35px;
 .testimonial-section {
   margin-top: 700px;
   margin-left: 50px;
-  width: auto;
 }
 .testimonial {
   row-gap: 30px;
@@ -1013,10 +1006,10 @@ margin-left: -35px;
 }
 .hero-centered-div-4 .hero-centered-text {
   font-size: 12px;
-  margin-left: 10px;
+  margin-left: 20px;
 }
 .hero-centered-div-4 .hero-centered-line {
-  margin-left: 160px;
+  margin-left: 100px;
 }
 .testimonial-pic-right {
   width: 225px;
@@ -1033,7 +1026,7 @@ margin-left: -35px;
 footer {
   flex-direction: column;
   margin-left: -10px;
-  width: auto;
+  width: 480px;
   height: 900px;
 }
 .link-row {
@@ -1059,7 +1052,7 @@ width: 250px;
 .copywrite-footer {
   padding-left: 50px;
   height: 50px;
-  width: auto;
+  width: 480px;
 }
 }
 header {
