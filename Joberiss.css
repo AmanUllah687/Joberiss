@@ -825,7 +825,7 @@ footer {
 }
 .slideContainer {
   color: white;
-  max-width: 480px;
+  max-width: 710px;
   margin: 10px;
   position: relative;
   margin: auto;
@@ -895,6 +895,7 @@ margin-left: -35px;
   height: 15px;
 }
 .about-us-section {
+  display: none;
   height: 700px;
   padding-top: 70px;
   width: 480px;
@@ -945,6 +946,7 @@ margin-left: -35px;
   z-index: 0;
  }
 .black-circle-div {
+  display: none;
     opacity: 0;
     margin-top: -50px;
     z-index: -1;
