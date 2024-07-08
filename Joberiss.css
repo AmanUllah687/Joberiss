@@ -669,7 +669,7 @@ footer {
   }
   @media only screen and (max-width: 480px) {
     body {
-      width: 370px;
+      width: 480px;
     }
     .hero-section {
       width: 350px;
