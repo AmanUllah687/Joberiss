@@ -823,10 +823,8 @@ div.hero-text-div {
   left: 0px;
   right: 0px;
   background: #FFFFFF;
-  width: 480px;
+  width: 380px;
   height: 600px;
-  padding-left: 320px;
-  margin-left: -400px;
 }
 .Slide {
   display: none;
@@ -850,7 +848,7 @@ div.hero-text-div {
   font-size: 18px;
 }
 .nextBtn {
-  right: 620px;
+  right: 250px;
   top: 0px;
 }
 
