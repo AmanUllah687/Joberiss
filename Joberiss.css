@@ -785,8 +785,8 @@ footer {
 .hero-centered-line {
   margin-left: 140px;
 }
-.hero-text-div {
-  width: 480px;
+div.hero-text-div {
+  width: 374px;
 }
 .hero-text {
   width: 480px;
@@ -1125,6 +1125,7 @@ nav input[type="checkbox"] {
   header {
     display: flex;
     background-color: RGBA(238, 243, 247, 1);
+    width: 320px;
   }
   .menu {
       display: none;
