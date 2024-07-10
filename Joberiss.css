@@ -775,15 +775,15 @@ footer {
 }
 .hero-centered-heading {
   font-size: 30px;
-  margin-left: -50px;
+  margin-left: -75px;
 }
 .hero-centered-div .hero-centered-text {
   font-size: 12px;
   width: 250px;
-  margin-left: 88px;
+  margin-left: 70px;
 }
 .hero-centered-line {
-  margin-left: 140px;
+  margin-left: 155px;
 }
 div.hero-text-div {
   width: 374px;
@@ -795,12 +795,15 @@ div.hero-text-div {
   width: 374px;
 }
 .logo-section {
+  display: flex;
   height: 100px;
   margin-top: -20px;
   flex-direction: column;
-  justify-content: center;
-  margin-left: 170px;
-  width: 480px;
+  justify-content: end;
+  position: relative;
+  left: 0px;
+  top: 60px;
+  width: 310px;
 }
 .logo-1,.logo-2{
   margin-left: -50px;
@@ -848,7 +851,7 @@ div.hero-text-div {
   font-size: 18px;
 }
 .nextBtn {
-  right: 250px;
+  right: 300px;
   top: 0px;
 }
 
