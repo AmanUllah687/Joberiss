@@ -669,7 +669,7 @@ footer {
   }
   @media only screen and (max-width: 480px) {
     body {
-      width: 480px;
+      width: auto;
     }
     .hero-section {
       width: 350px;
@@ -1126,7 +1126,7 @@ nav input[type="checkbox"] {
   header {
     display: flex;
     background-color: RGBA(238, 243, 247, 1);
-    width: 320px;
+    width: 300px;
   }
   .menu {
       display: none;
