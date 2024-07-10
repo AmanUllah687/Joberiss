@@ -785,6 +785,15 @@ footer {
 .hero-centered-line {
   margin-left: 140px;
 }
+.hero-text-div {
+  width: 480px;
+}
+.hero-text {
+  width: 480px;
+}
+.hero-column-2 {
+  width: 374px;
+}
 .logo-section {
   height: 100px;
   margin-top: -20px;
@@ -814,10 +823,9 @@ footer {
   left: 0px;
   right: 0px;
   background: #FFFFFF;
-  width: auto;
+  width: 480px;
   height: 600px;
   padding-left: 320px;
-  padding-right: 150px;
   margin-left: -400px;
 }
 .Slide {
@@ -825,10 +833,9 @@ footer {
 }
 .slideContainer {
   color: white;
-  max-width: 710px;
+  width: 400px;
   margin: 10px;
   position: relative;
-  margin: auto;
 }
 
 .prevBtn,
