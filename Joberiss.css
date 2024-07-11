@@ -972,10 +972,12 @@ margin-left: -35px;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  width: 460;
 }
 .hero-centered-div-3  {
   padding-bottom: 50px;
-  margin-left: -90px;
+  margin-left: 0px;
+  width: 350px;
 }
 .hero-centered-div-3 .hero-centered-heading {
   margin-left: 20px;
@@ -1004,7 +1006,8 @@ margin-left: -35px;
 }
 .testimonial-section {
   margin-top: 700px;
-  margin-left: 50px;
+  padding-left: 90px;
+  width: 390;
 }
 .testimonial {
   row-gap: 30px;
@@ -1022,7 +1025,7 @@ margin-left: -35px;
 }
 .hero-centered-div-4 {
   margin-top: -600px;
-  margin-left: -170px;
+  margin-left: -100px;
 }
 .hero-centered-div-4 .hero-centered-heading {
   margin-left: 20px;
@@ -1032,7 +1035,7 @@ margin-left: -35px;
   margin-left: 20px;
 }
 .hero-centered-div-4 .hero-centered-line {
-  margin-left: 270px;
+  margin-left: 200px;
 }
 .testimonial-pic-right {
   width: 225px;
@@ -1049,7 +1052,7 @@ margin-left: -35px;
 footer {
   flex-direction: column;
   margin-left: -10px;
-  width: 340px;
+  width: 420px;
   height: 900px;
 }
 .link-row {
@@ -1075,7 +1078,7 @@ width: 250px;
 .copywrite-footer {
   padding-left: 50px;
   height: 50px;
-  width: 300px;
+  width: 380px;
 }
 }
 header {
