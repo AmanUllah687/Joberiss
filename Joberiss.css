@@ -672,7 +672,7 @@ footer {
       width: auto;
     }
     .hero-section {
-      width: 350px;
+      width: 340px;
     }
     .small-Rectangle-1 {
       z-index: 0;
@@ -743,7 +743,7 @@ footer {
 }
 .keyboard-top-rec {
   margin-top: 15px;
-  margin-left: -180px;
+  margin-left: -110px;
   border: 2px dashed #318ce7;
   border-radius: 5px;
   height: 50px;
@@ -751,7 +751,7 @@ footer {
 } 
 .keyboard-pic {
   margin-top: -60px;
-  margin-left: -170px;
+  margin-left: -100px;
   z-index: 3;
 
 }
@@ -760,7 +760,7 @@ footer {
   width: 150px;
 }
 .keyboard-bottom-rec {
-  margin-left: -180px;
+  margin-left: -110px;
   margin-top: -60px;
   border: 2px dashed #318ce7;
   border-radius: 5px;
@@ -1049,7 +1049,7 @@ margin-left: -35px;
 footer {
   flex-direction: column;
   margin-left: -10px;
-  width: 480px;
+  width: 340px;
   height: 900px;
 }
 .link-row {
@@ -1075,7 +1075,7 @@ width: 250px;
 .copywrite-footer {
   padding-left: 50px;
   height: 50px;
-  width: 440px;
+  width: 300px;
 }
 }
 header {
