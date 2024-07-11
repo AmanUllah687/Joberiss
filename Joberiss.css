@@ -1007,6 +1007,7 @@ margin-left: -35px;
 .testimonial-section {
   margin-top: 700px;
   width: 390px;
+  padding-left: 50px;
 }
 .testimonial {
   row-gap: 30px;
@@ -1128,7 +1129,7 @@ nav input[type="checkbox"] {
   header {
     display: flex;
     background-color: RGBA(238, 243, 247, 1);
-    width: 295px;
+    width: 345px;
   }
   .menu {
       display: none;
