@@ -743,7 +743,7 @@ footer {
 }
 .keyboard-top-rec {
   margin-top: 15px;
-  margin-left: -110px;
+  margin-left: -80px;
   border: 2px dashed #318ce7;
   border-radius: 5px;
   height: 50px;
@@ -760,7 +760,7 @@ footer {
   width: 150px;
 }
 .keyboard-bottom-rec {
-  margin-left: -110px;
+  margin-left: -80px;
   margin-top: -60px;
   border: 2px dashed #318ce7;
   border-radius: 5px;
