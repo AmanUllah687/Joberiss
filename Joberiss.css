@@ -1035,7 +1035,8 @@ margin-left: -35px;
   margin-left: 10px;
 }
 .hero-centered-div-4 .hero-centered-line {
-  margin-left: 250px;
+  position: relative;
+  left: 50px;
 }
 .testimonial-pic-right {
   width: 225px;
