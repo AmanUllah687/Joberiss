@@ -669,7 +669,7 @@ footer {
   }
   @media only screen and (max-width: 480px) {
     body {
-      width: auto;
+      width: 100vw;
     }
     .hero-section {
       width: 340px;
@@ -775,15 +775,18 @@ footer {
 }
 .hero-centered-heading {
   font-size: 30px;
-  margin-left: -75px;
+  position: relative;
+  right: 15px;
 }
 .hero-centered-div .hero-centered-text {
   font-size: 12px;
   width: 250px;
-  margin-left: 70px;
+  position: relative;
+  left: 100px;
 }
 .hero-centered-line {
-  margin-left: 155px;
+  position: relative;
+  margin-left: 185px;
 }
 div.hero-text-div {
   width: 374px;
@@ -801,7 +804,7 @@ div.hero-text-div {
   flex-direction: column;
   justify-content: end;
   position: relative;
-  left: 0px;
+  left: 30px;
   top: 60px;
   width: 310px;
 }
