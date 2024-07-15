@@ -1134,7 +1134,7 @@ nav input[type="checkbox"] {
   header {
     display: flex;
     background-color: RGBA(238, 243, 247, 1);
-    width: 330px;
+    width: 320px;
   }
   .menu {
       display: none;
