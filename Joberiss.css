@@ -209,11 +209,11 @@
 .logo-section {
     display: flex;
     justify-content: space-around;
-    width: 956px;
+    width: auto;
     height: 79px;
-    margin-left: 140px;
     margin-top: 50px;
     margin-bottom: 100px;
+    gap: 200px;
 }
 .logo-1 {
     width: 94px;
