@@ -238,10 +238,10 @@
     height: 61px;
 }
 /*Mid Explorer Section*/
+/* ── Base / Desktop ── */
 .Mid-Explorer-section {
     background-color: rgba(238, 243, 247, 1);
     padding-top: 70px;
-    /* remove max-width and margin auto from here */
 }
 
 .card-section {
@@ -258,33 +258,38 @@
     background-color: rgba(255, 255, 255, 1);
     border-radius: 25px;
     padding: 50px 10px 50px 50px;
-    width: auto;      /* let it fill the column */
-    height: auto;     /* let content decide height */
+    width: auto;
+    height: auto;
     box-sizing: border-box;
 }
+
 .icon-container {
     width: 84px;
     height: 85px;
     border-radius: 50%;
-    background-color: RGBA(238, 243, 247, 1);
+    background-color: rgba(238, 243, 247, 1);
 }
+
 .icon-img {
     width: 42px;
     height: 42px;
-    padding: 20px 20px 20px 20px;
+    padding: 20px;
 }
+
 .card-heading {
     color: #14212B;
     font-size: 22px;
     width: 193px;
     height: 21px;
 }
+
 .card-text {
     color: #939393;
     font-size: 16px;
     width: 264px;
     height: 39px;
 }
+
 .card-heading-2 {
     color: #77B5FE;
     font-size: 18px;
@@ -865,26 +870,25 @@ div.hero-text-div {
   top: 0px;
 }
 .Mid-Explorer-section {
-        width: 100%;
-        margin: 0;
-        padding: 40px 20px;
+        padding: 40px 15px;
         box-sizing: border-box;
+        overflow: hidden;
     }
 
     .hero-centered-div-2 {
         margin: 0;
-        padding: 0 15px;
+        padding: 0;
         text-align: center;
     }
 
     .hero-centered-div-2 .hero-centered-heading {
-        font-size: 30px;
+        font-size: 26px;
         margin: 0 0 10px 0;
     }
 
     .hero-centered-div-2 .hero-centered-text {
         font-size: 12px;
-        text-align: center;
+        margin: 0;
     }
 
     .hero-centered-div-2 .hero-centered-line {
@@ -892,17 +896,18 @@ div.hero-text-div {
     }
 
     .card-section {
-        grid-template-columns: 1fr 1fr;  /* 2 cards per row on mobile */
+        grid-template-columns: 1fr;
         gap: 15px;
         padding: 30px 0 60px;
+        margin: 0;
+        max-width: 100%;
     }
 
     .card-1 {
         width: 100%;
         height: auto;
         margin: 0;
-        padding: 20px;
-        box-sizing: border-box;
+        padding: 25px;
         border-radius: 15px;
     }
 
@@ -911,11 +916,15 @@ div.hero-text-div {
     }
 
     .card-heading {
-        font-size: 16px;
+        font-size: 18px;
+        width: 100%;
+        height: auto;
     }
 
     .card-text {
         font-size: 12px;
+        width: 100%;
+        height: auto;
     }
 
     .card-heading-2 {
