@@ -7,24 +7,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
      <script src="Joberiss.js"></script>
 </head>
+<script>
+    function toggleMenu() {
+        const menu = document.getElementById('mobile-menu');
+        menu.classList.toggle('open');
+    }
+</script>
 <body>
-    <header>
-        <div class="logo">
-            <img src="Joberiss copy.png" alt="Logo">
-        </div>
-        <nav>
-            <input type="checkbox" id="menu-toggle">
-            <label for="menu-toggle" class="menu-icon">&#9776;</label>
-            <ul class="menu">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">HOW IT WORKS!</a></li>
-                <li><a href="#services">POST A JOB</a></li>
-                <li><a href="#contact">POST A REQUST</a></li>
-                <li><a href="#contact">LOGIN</a></li>
-                <li><a href="#contact">REGISTER</a></li>
-            </ul>
-        </nav>
-    </header>
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-SJPSXE3R13"></script>
 <script>
@@ -34,6 +23,20 @@
 
   gtag('config', 'G-SJPSXE3R13');
 </script>
+     <header>
+    <div class="logo">
+        <img src="Joberiss copy.png" alt="Logo">
+    </div>
+    <span class="menu-icon" onclick="toggleMenu()">&#9776;</span>
+    <ul class="menu" id="mobile-menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">HOW IT WORKS!</a></li>
+        <li><a href="#services">POST A JOB</a></li>
+        <li><a href="#contact">POST A REQUEST</a></li>
+        <li><a href="#contact">LOGIN</a></li>
+        <li><a href="#contact">REGISTER</a></li>
+    </ul>
+</header>
     <section class="Top-section">
 <section class="header">
     <div class="left-corner-triangle"><img src="Rounded Rectangle 12 (3).png" alt="" class="header-rectangale"></div>
@@ -354,7 +357,6 @@
             </container>
         </section>
     </section>
-</body>
 <footer>
 
     <div class="column">
@@ -407,4 +409,5 @@
           </span>
           </div>       
     </footer>
+    </body>
 </html>
