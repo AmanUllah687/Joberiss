@@ -960,7 +960,11 @@ footer {
     .icon-container {
         margin: 0 0 15px 0;
     }
-
+    .icon-img {
+    width: 42px;
+    height: 42px;
+    padding: 20px;
+}
     .card-heading {
         font-size: 18px;
         width: 100%;
@@ -1157,12 +1161,6 @@ width: 250px;
   height: 50px;
   width: 380px;
 }
- * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-
     body {
         width: 100vw;
         overflow-x: hidden;
@@ -1172,7 +1170,7 @@ width: 250px;
     header {
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: space-around;
         background-color: RGBA(238, 243, 247, 1);
         padding: 15px 20px;
         width: 100%;
