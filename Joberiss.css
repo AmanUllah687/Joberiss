@@ -1041,6 +1041,8 @@ footer {
 .our-process {
    height: auto;
    width: 100%;
+   padding-top: 0;
+   padding-bottom: 0;
 }
 .our-process-diagram {
         display: grid;
@@ -1130,9 +1132,10 @@ footer {
   margin-left: -20px;
 }
 .hero-centered-div-4 .hero-centered-line {
-  position: relative;
-  left: 40px;
-}
+        position: static;
+        left: auto;
+        margin: 10px auto;
+    }
 .testimonial-pic-right {
   width: 225px;
 }
