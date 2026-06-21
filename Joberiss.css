@@ -1102,52 +1102,62 @@ footer {
   display: none;
 }
 .testimonial-section {
-  margin-top: 700px;
-  width: 390px;
-  padding-left: 50px;
-}
-.testimonial {
-  row-gap: 30px;
-  flex-direction: column;
-}
-.testimonial-left {
-  width: 272px;
-  height: 330px;
-}
-.testimonial-pic {
-  width: 270px;
-}
-.testimonial-pic-center {
-  width: 225px;
-}
-.hero-centered-div-4 {
-  margin-top: -600px;
-  margin-left: -100px;
-}
-.hero-centered-div-4 .hero-centered-heading {
-  margin-left: -20px;
-}
-.hero-centered-div-4 .hero-centered-text {
-  font-size: 12px;
-  margin-left: -20px;
-}
-.hero-centered-div-4 .hero-centered-line {
-        position: static;
-        left: auto;
-        margin: 10px auto;
+        margin-top: 0;
+        width: 100%;
+        max-width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+        overflow-x: hidden;
     }
-.testimonial-pic-right {
-  width: 225px;
-}
-.price-tage, .price-tage-center, .price-tage-right {
-  width: 100px;
-  margin-left: 125px;
-}
-.pricing-text, .pricing-text-center, .pricing-text-right {
-  width: 230px;
-  height: 60px;
-  margin-bottom: 20px;
-}
+    .testimonial {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        align-items: center;
+    }
+
+    .testimonial-left {
+        position: relative;
+        width: 100%;
+        max-width: 320px;
+        height: auto;
+        box-sizing: border-box;
+    }
+
+    .testimonial-pic,
+    .testimonial-pic-center,
+    .testimonial-pic-right {
+        width: 100%;
+        height: 220px;
+        object-fit: cover;
+        margin-left: 0;
+        margin-top: 0;
+         border-radius: 15px;
+    }
+   .price-tage,
+    .price-tage-center,
+    .price-tage-right {
+        position: absolute;
+        margin-left: 0;
+        margin-top: 0;
+        left: 10px;
+        top: 10px;
+        z-index: 2;
+    }
+
+   .pricing-text,
+    .pricing-text-center,
+    .pricing-text-right {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        box-sizing: border-box;
+        padding: 0 15px;
+    }
+
+    .icon-box {
+        margin-left: 15px;
+    }
  footer {
         flex-direction: column;
         margin-left: 0;
