@@ -1180,18 +1180,19 @@ width: 250px;
   padding-left: 25px;
 }
 .copywrite-footer div span {
-  font-size: 13px;
-  margin-left: -18px;
-  
-}
+        font-size: 13px;
+        margin-left: 0;
+    }
 .link-column-1 {
   margin-top: -30px;
 }
 .copywrite-footer {
-  padding-left: 50px;
-  height: 50px;
-  width: 380px;
-}
+        padding-left: 0;
+        height: auto;
+        width: 100%;
+        box-sizing: border-box;
+        text-align: center;
+    }
     body {
         width: 100vw;
         overflow-x: hidden;
